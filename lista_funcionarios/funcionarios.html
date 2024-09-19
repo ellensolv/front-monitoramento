@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoramento de Gôndolas - Lista de Usuários</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ccffcc; /* Verde claro */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #99cc99; 
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 650px;
+        }
+
+        .container h2 {
+            color: #fff;
+            text-align: center;
+        }
+
+        .container h3 {
+            color: #10330f;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #19461b;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        .options {
+            display: flex;
+            gap: 10px;
+        }
+
+        .options button {
+            padding: 5px 10px;
+            background-color: #19461b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .options button:hover {
+            background-color: #09250b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Monitoramento de Gôndolas - Gerencial</h2>
+        <h3>Lista de Usuários Cadastrados</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Funcionário</th>
+                    <th>E-mail</th>
+                    <th>Função</th>
+                    <th>Opções</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Funcionário 01</td>
+                    <td>funcionario01@email.com</td>
+                    <td>Estoquista</td>
+                    <td class="options">
+                        <button>Deletar</button>
+                        <button>Editar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Funcionário 02</td>
+                    <td>funcionario02@email.com</td>
+                    <td>Estoquista</td>
+                    <td class="options">
+                        <button>Deletar</button>
+                        <button>Editar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Funcionário 03</td>
+                    <td>funcionario03@email.com</td>
+                    <td>Auxiliar</td>
+                    <td class="options">
+                        <button>Deletar</button>
+                        <button>Editar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Funcionário 04</td>
+                    <td>funcionario04@email.com</td>
+                    <td>Gerente</td>
+                    <td class="options">
+                        <button>Deletar</button>
+                        <button>Editar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
